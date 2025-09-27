@@ -1,3 +1,7 @@
+#include <avr/io.h>
+#include <util/delay.h>
+#include <avr/interrupt.h>
+
 #define TRIG_PIN 5
 #define ECHO_PIN 18
 #define BUZZER_PIN 19
