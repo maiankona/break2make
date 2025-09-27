@@ -1,1 +1,3 @@
 # break2make
+problem: women's safety
+solution: a transportable clip-on device that uses an ultrasonic range sensor and timer logic to track when a person comes within a certain range of you (too close) and sets off a buzzer to warn you that there may be danger behind you after this object (person) has been in range for a certain duration of time (like ~15 secs). We will also later add a text messaging system that will automatically send a text alert to a bot (friend/emergency) after the buzzer has been going off for a while unless a button is pressed within 25 seconds. If time, we will also implement a camera module that takes pictures of the culprit and stores the info to be viewed later.
