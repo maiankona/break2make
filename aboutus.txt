@@ -1,0 +1,34 @@
+## Inspiration
+- makeathon targeted towards women and nonbinary people
+- shared similar experiences about safety while on the go
+
+## What it does
+- senses when a person has been following you and alerts you as well as a trusted person about potential danger
+
+## How we built it
+- ultrasonic range sensor to measure distance from an object (person in this case) 
+- buzzer to alert the user that someone has been within a certain range of them for a certain amount of time
+- button to turn off buzzer and notification if false alarm
+- timer logic to calculate when someone has been behind you for a certain time + sending messages when the buzzer has went off for 10 seconds
+
+## Challenges we ran into
+- coming up with realistic durations of time for when we want a message sent
+- making the product durable and transportable
+- camera system was buggy
+
+## Accomplishments that we're proud of
+- making the product into a backpack sort of shape to transport around
+- coming up with a catchy name and logo for the product
+- creating the timer logic
+- integrating IoT with messaging system
+
+## What we learned
+- how to work with ESP 32 pinouts (instead of the typical ATmega328P)
+- how to think of and go about different safety scenarios in mind and adjusting the product to meet these requirements
+- organizing and building an MVP in a short span of time (learning what to prioritize)
+
+## What's next for Swivel
+- integrating a camera to take pictures of the culprit and sending to trusted friends
+- adjusting buzzer volume level (by using an actual sound sensor)
+- finer text messaging system so second text isnt sent if the person isnt in danger
+- better range of danger with levels (like high danger ~2m and medium danger ~5m)
